@@ -25,7 +25,16 @@ export default function Home() {
           textAlign: 'center',
           zIndex: 1,
         }}>
-          <Image src="/logo-min.png" width={1000} height={1000} alt="Logo" />
+          <div style={{
+  backgroundImage: `url('/logo-min.png')`,
+  width: '810px',
+  height: '490px',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'contain',
+}}>
+  {/* Optional content inside the div */}
+</div>
+
           <p className='mt-24 text-white text-xl'>kathy@emirolabs.com</p>
         </div> 
       </div>
