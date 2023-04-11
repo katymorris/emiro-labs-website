@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex relative min-h-screen flex-col items-center justify-between p-0" style={{ minHeight: '100vh' }}>
       <div style={{
-        backgroundImage: `url('/background2.svg')`,
+        backgroundImage: `url('/background2-min.png')`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         width: '100%',
