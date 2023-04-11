@@ -27,7 +27,7 @@ export default function Home() {
         }}>
           <Image src="/logo.png" width={1000} height={1000} alt="Logo" />
           <p className='mt-24 text-white text-xl'>kathy@emirolabs.com</p>
-        </div>
+        </div> 
       </div>
     </div>
   );
