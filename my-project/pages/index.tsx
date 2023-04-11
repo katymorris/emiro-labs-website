@@ -25,15 +25,9 @@ export default function Home() {
           textAlign: 'center',
           zIndex: 1,
         }}>
-          <div style={{
-  backgroundImage: `url('/logo-min.png')`,
-  width: '810px',
-  height: '490px',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'contain',
-}}>
-  {/* Optional content inside the div */}
-</div>
+          <div className="logo">
+            {/* Optional content inside the div */}
+          </div>
 
           <p className='mt-24 text-white text-xl'>kathy@emirolabs.com</p>
         </div> 
