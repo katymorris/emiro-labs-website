@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Kathy Morris
+N;CHARSET=UTF-8:Morris;Kathy;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:kathy@emirolabs.com
+TEL;TYPE=CELL:(805) 665-7149
+ADR;CHARSET=UTF-8;TYPE=HOME:;;;;;;United States
+TITLE;CHARSET=UTF-8:Founder
+ORG;CHARSET=UTF-8:Emiro Labs
+URL;type=WORK;CHARSET=UTF-8:http://emirolabs.com
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/kathydmorris/
+REV:2023-04-30T04:39:03.718Z
+END:VCARD
