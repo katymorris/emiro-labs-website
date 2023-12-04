@@ -42,6 +42,10 @@ body {
   background-size: cover;
 }
 
+#blog-details {
+  background-color: #04183a;
+}
+
 #blog-details .main-link {
   color: white;
 }
@@ -109,12 +113,15 @@ body {
   }
 }
 
+/* Add this at the end of your CSS */
+@media (hover: none) {
+  #blog-details .blog-item:hover {
+    background-color: none !important;
+  }
+}
+
 /* Media query for small-sized screens (e.g., mobile phones) */
 @media (max-width: 480px) {
-
-  #blog-details .blog-item:hover {
-    background-color: none;
-  }
 
   #blog-details .blog-item {
     padding: 8px;
