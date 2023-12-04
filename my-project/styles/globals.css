@@ -45,6 +45,7 @@ body {
 #blog-details {
   background-color: #04183a;
   color: white !important;
+  padding: 12px !important;
 }
 
 #blog-details .main-link {
