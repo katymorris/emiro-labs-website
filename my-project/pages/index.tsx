@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
+import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,7 +30,9 @@ export default function Home() {
           <div className="logo">
             {/* Optional content inside the div */}
           </div>
-
+          <Link href="/blog">
+            <Button className="mt-12" variant='outlined'>My Blog</Button>
+          </Link>
           <p className='mt-24 text-white text-xl'>kathy@emirolabs.com</p>
         </div> 
       </div>

@@ -34,6 +34,53 @@ body {
   background-size: 'contain'
 }
 
+.blog-header {
+  background-image: url(/images/sky.webp);
+  width: 100%;
+  height: 490px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog-details .main-link {
+  color: white;
+}
+
+#blog-details h2 {
+ font-size: 24px;
+}
+
+#blog-details p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* #blog-details p:last-child {
+  margin-bottom:40px;
+} */
+
+#blog-details .blog-item {
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+#blog-details .blog-item:hover {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.MuiButtonBase-root {
+  color: white;
+  border: 1px solid white !important;
+  font-size: 20px;
+}
+
+.MuiButtonBase-root:hover {
+  background-color: #ffffff;
+  color: #04183a;
+}
+
+
 @media (max-width: 767px) {
   .logo {
     width: 100%;
@@ -41,6 +88,8 @@ body {
     background-size: contain;
   }
 }
+
+
 
 /* Media query for screens between 768px and 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -57,5 +106,31 @@ body {
     width: 810px;
     height: 490px;
     background-size: contain;
+  }
+}
+
+/* Media query for small-sized screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+
+  #blog-details .blog-item:hover {
+    background-color: none;
+  }
+
+  #blog-details .blog-item {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .css-1n8pt8h-MuiGrid-root>.MuiGrid-item {
+    padding: 0 !important;
+  }
+
+  .css-1n8pt8h-MuiGrid-root {
+    width: auto !important;
+    margin-left: 0px !important;
+  }
+
+  .css-1007tex-MuiTypography-root {
+    font-size: 36px !important;
   }
 }
