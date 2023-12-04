@@ -68,6 +68,10 @@ body {
   margin-bottom: 20px;
 }
 
+#blog-details .blog-item a {
+  color: white;
+}
+
 #blog-details .blog-item:hover {
   background-color: #2a2a2a;
   color: white;
@@ -126,7 +130,6 @@ body {
   #blog-details .blog-item {
     padding: 8px;
     margin-bottom: 12px;
-    color: white;
   }
   
   .css-1n8pt8h-MuiGrid-root>.MuiGrid-item {
